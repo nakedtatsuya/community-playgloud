@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Docs</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./favicon.ico">
+    <link rel="stylesheet" href="./stylesheet/style.css">
+  </head>
+  <body>
+    <h1>Progate Pathコミュニティに参加せよ</h1>
+    <canvas id="gameCanvas" width="480" height="320"></canvas>
+    <p id="out"></p>
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <div class="flex">
+          <div>
+            <h1>Discord Serverを発見!</h1>
+            <p>Progate Path コミュニティに参加しますか？</p>
+          </div>
+          <img src="./images/modal.png" alt="Discord Logo">
+        </div>
+        <button class="button" onclick="closeModal()"><a href="https://discord.com/invite/progate-path-973145176723836948">参加する</a></button>
+      </div>
+    </div>
+    <img id="grass" src="./images/grass.png" style="display: none;">
+    <img id="player" src="./images/ninja-right.png" style="display: none;">
+    <img id="player-right" src="./images/ninja-left.png" style="display: none;">
+    <script src="./js/script.js"></script>
+  </body>
+</html>

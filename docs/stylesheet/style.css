@@ -1,0 +1,86 @@
+canvas {
+  border: 1px solid black;
+}
+
+.modal {
+  display: none;
+  position: absolute;
+  border: 1px solid black;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* モーダルの基本スタイル */
+.modal {
+  display: none;
+  /* 最初は非表示 */
+  position: fixed;
+  /* 画面に固定 */
+  z-index: 1;
+  /* コンテンツより前面に */
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  /* 全幅 */
+  height: 100vh;
+  /* 全高 */
+  overflow: auto;
+  /* スクロール可能 */
+  background-color: rgb(0, 0, 0);
+  /* 背景色 */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* 黒色、透明度 */
+}
+
+/* モーダルコンテンツ */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  /* 上15%、左右自動中央揃え */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  /* コンテンツの幅 */
+}
+
+/* 閉じるボタンのスタイル */
+.close-button {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-button:hover,
+.close-button:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button {
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #8A00EA;
+  color: white;
+  margin: 0 auto;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+.flex img {
+  width: auto;
+  height: 200px;
+}
